@@ -61,7 +61,7 @@ elseif("${CMAKE_SYSTEM_NAME}" STREQUAL "OpenBSD")
 elseif("${CMAKE_SYSTEM_NAME}" STREQUAL "Fuchsia")
   add_definitions(-DSPIRV_FUCHSIA)
 elseif("${CMAKE_SYSTEM_NAME}" STREQUAL "GNU")
-  add_definitions(-DSPIRV_GNU)a10:13 2024/7/3
+  add_definitions(-DSPIRV_GNU)
 elseif("${CMAKE_SYSTEM_NAME}" STREQUAL "OHOS")
     add_definitions(-DSPIRV_GNU)
 else()
